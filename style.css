@@ -49,6 +49,9 @@ h1{
     margin-right:  74px;
     font-size: 40px;
     font-weight: bold;    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
 
 .colorbox-wrapper{
