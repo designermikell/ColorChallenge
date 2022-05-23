@@ -1,6 +1,7 @@
 body {
     font-family: 'Inter', sans-serif;
     text-align: center;
+    background-color: blue;
 }
 
 .hero {
@@ -32,7 +33,6 @@ h1{
     border: none;
     border-radius: 28px;
     padding: 15px 60px;
-    background-color: #red;
     font-weight: bold;
 }
 
