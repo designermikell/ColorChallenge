@@ -17,7 +17,7 @@
         <div class="hero-content">
             <h1>Color Changer</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, nullam pellentesque lectus nulla amet gravida quisque. Amet lorem nisl, purus, a tristique. Dui eget mauris eleifend netus natoque nibh lorem eleifend. Nullam viverra dignissim arcu, interdum. Diam nullam vel id tincidunt leo id tellus. Aliquam integer sed eleifend feugiat venenatis. Risus mauris neque.</p>
-            <a class="hero-btn" href="#">Color Box</a>
+            <a class="hero-btn" href="#colorbox-anchor">Color Box</a>
         </div>
     </div>
 
@@ -35,22 +35,22 @@
 
     <div class="colorbox-wrapper">
         <div class="colorbox-sec-1">
-            <div class="mini-colorbox" id="mini-colorbox-1">
+            <button class="mini-colorbox" id="mini-colorbox-1" onclick="colorChange('Red')">
                 <p>Red</p>
-            </div>
-            <div class="mini-colorbox" id="mini-colorbox-2">
+            </button>
+            <button class="mini-colorbox" id="mini-colorbox-2" onclick="colorChange('Green')">
                 <p>Green</p>
-            </div>
-            <div class="mini-colorbox" id="mini-colorbox-3">
+            </button>
+            <button class="mini-colorbox" id="mini-colorbox-3" onclick="colorChange('Blue')">
                 <p>Blue</p>
-            </div>
+            </button>
         </div>
-        <div class="colorbox-sec-2">
-            <div class="colorbox">
+        <div class="colorbox-sec-2" id="colorbox-anchor">
+            <div class="colorbox" id="colorbox-edit">
                 <p>Color Box</p>
             </div>
         </div>
     </div>
-
+    <script src="script.js"></script>
 </body>
 </html>

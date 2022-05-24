@@ -3,6 +3,13 @@ body {
     text-align: center;
 }
 
+button{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
 .hero {
     background-color: #d9d9d9;
     height: 570px;
@@ -32,14 +39,23 @@ h1{
     border: none;
     border-radius: 28px;
     padding: 15px 60px;
-    background-color: #red;
     font-weight: bold;
+	 background-color: #C2C0C0;
+	 color: black;
+	 text-decoration: none;
+}
+
+/* Hover effect for hero button */
+
+.hero-btn:hover {
+	color: white;
+	background-color: black; 
 }
 
 .hoverbox{
-  display: flex;
-  justify-content: center; 
-  margin-top: 90px; 
+    display: flex;
+    justify-content: center; 
+    margin-top: 90px; 
 }
 
 .color-hoverbox{
@@ -48,7 +64,10 @@ h1{
     background-color: #D9D9D9;
     margin-right:  74px;
     font-size: 40px;
-    font-weight: bold;    
+    font-weight: bold; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;   
 }
 
 .colorbox-wrapper{
@@ -68,17 +87,34 @@ h1{
     background-color: #D9D9D9;
     margin-right: 74px;
     margin-bottom: 45px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+    border: none;
+}
+
+.mini-colorbox > p{
+    width: 305px;
 }
 
 .colorbox{
     width: 685px;
     height: 423px;
     background-color: #D9D9D9;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	
 }
 
 /* Hover Effects */
 
-#color-hoverbox-1:hover {
+#color-hoverbox-1:hover{
+    background-color: red;
+    color: white;
+}
+
+#mini-colorbox-1:hover{
     background-color: red;
     color: white;
 }
@@ -88,7 +124,17 @@ h1{
     color: white;    
 }
 
+#mini-colorbox-2:hover{
+    background-color: green;
+    color: white;    
+}
+
 #color-hoverbox-3:hover{
     background-color: black;
+    color: white;
+}
+
+#mini-colorbox-3:hover{
+    background-color: blue;
     color: white;
 }
